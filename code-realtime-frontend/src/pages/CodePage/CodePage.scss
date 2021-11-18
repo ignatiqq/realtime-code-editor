@@ -1,0 +1,36 @@
+.codefield {
+  & {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    & {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 30px;
+    }
+
+    &-leave a {
+      text-decoration: none;
+    }
+  }
+
+  & .code {
+    & {
+      max-height: 86.4%;
+      height: 100%;
+    }
+    & .react-codemirror2 {
+      & {
+        height: 100%;
+      }
+      & .CodeMirror {
+        height: 100%;
+      }
+    }
+  }
+}

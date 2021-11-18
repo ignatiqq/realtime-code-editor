@@ -1,0 +1,26 @@
+.login {
+  & {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__input {
+    & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    & .MuiFormControl-root {
+      margin-bottom: 20px;
+    }
+  }
+}
